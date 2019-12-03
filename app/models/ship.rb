@@ -9,4 +9,8 @@ class Ship
     @booty = params[:booty]
     @@ships << self
   end
+  
+  def self.all
+    @@ships
+  end
 end
