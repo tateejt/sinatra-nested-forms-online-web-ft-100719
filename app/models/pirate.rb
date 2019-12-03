@@ -11,6 +11,6 @@ class Pirate
   end
   
   def self.all
-    @@all
+    PIRATES
   end
 end
